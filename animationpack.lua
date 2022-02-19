@@ -1,4 +1,5 @@
-local AnimationPack = Instance.new("TextButton")
+local FreeAnimationPack = Instance.new("ScreenGui")
+				local AnimationPack = Instance.new("TextButton")
 				local Animations = Instance.new("ScrollingFrame")
 				local UIListLayout = Instance.new("UIListLayout")
 				local Lean = Instance.new("TextButton")
