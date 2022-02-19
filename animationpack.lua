@@ -1,15 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toshiiro0/new-ui/main/main"))()
-
-
-local Window = Library:Create("animation.")
-
-local Tab1 = Window:Tab("Player",false)
-
-Tab1:Label("Player Scripts")
-
-Tab1:Button("Animation Pack", function()
-local FreeAnimationPack = Instance.new("ScreenGui")
-				local AnimationPack = Instance.new("TextButton")
+local AnimationPack = Instance.new("TextButton")
 				local Animations = Instance.new("ScrollingFrame")
 				local UIListLayout = Instance.new("UIListLayout")
 				local Lean = Instance.new("TextButton")
@@ -185,12 +174,4 @@ local FreeAnimationPack = Instance.new("ScreenGui")
 						Animations.Visible = false
 					end
 				end)
-end)
-
-local Tab2 = Window:Tab("Keybind",false)
-
-Tab2:Label("Keybind")
-
-Tab2:Keybind("Toggle",Enum.KeyCode.Semicolon,function()
-    Library:Toggle()
 end)
